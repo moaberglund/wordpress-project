@@ -8,8 +8,11 @@ $grey: #d6d9d9;
 $light_green: #b7bab3;
 $dark_green: #78786d;
 
-#header-banner {
+header {
   background-color: $grey;
+
+}
+#header-banner {
   display: flex;
   padding: 1em;
 }
