@@ -1,0 +1,12 @@
+$lightest: #f6f5f3;
+
+.topWidget {
+  background-color: $lightest;
+
+  p {
+    font-size: 1em;
+    padding: 0.5em 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
