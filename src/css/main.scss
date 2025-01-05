@@ -1,21 +1,24 @@
+@use "layout/header.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-$kantumruy: 'Kantumruy Pro', sans-serif;
-$montserrat: 'Montserrat', sans-serif;
-$inter: 'Inter', sans-serif;
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+$kantumruy: "Kantumruy Pro", sans-serif;
+$montserrat: "Montserrat", sans-serif;
+$inter: "Inter", sans-serif;
 
 //färger
-$lightest: #F6F5F3;
-$gold: #D8AE5E;
+$lightest: #f6f5f3;
+$gold: #d8ae5e;
 
-$light_grey: #E9E9E9;
-$grey: #D6D9D9;
+$light_grey: #e9e9e9;
+$grey: #d6d9d9;
 
-$light_green: #B7BAB3;
-$dark_green: #78786D;
-
+$light_green: #b7bab3;
+$dark_green: #78786d;
 
 * {
   font-family: $inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
