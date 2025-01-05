@@ -1,0 +1,25 @@
+.room-bubble {
+    h2 {
+        font-weight: 400;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        margin-bottom: 0.3em;
+    }
+}
+
+.rs-img {
+    img {
+        width: 90%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
+
+.rs-text {
+    width: 90%;
+    p {
+        font-size: 1.1em;
+        line-height: 1.6em;
+    }
+}
