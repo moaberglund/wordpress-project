@@ -53,3 +53,17 @@ h2 {
     width: 95%;
   }
 }
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+}
