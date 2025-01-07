@@ -8,6 +8,7 @@ $light_green: #b7bab3;
 $dark_green: #78786d;
 
 .events-overview-bubble {
+  line-height: 1.4em;
   background-color: $light_grey;
   padding: 1em;
   display: flex; /* Aktiverar flex-rad-layouten */
@@ -22,11 +23,33 @@ $dark_green: #78786d;
     object-fit: cover;
   }
 
+  h3 {
+    font-weight: 600;
+    padding-top: 0.5em;
+  }
+
   p {
-    max-width: 500px;
+    padding-top: 1em;
+    font-size: 1.1em;
   }
 }
 
+.top-div-event {
+  padding: 1em;
+  img {
+    width: 450px;
+    max-width: 95%;
+    height: 450px;
+    max-height: 950%;
+    object-fit: cover;
+  }
+  p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .events-overview-bubble {
     flex-direction: column; /* Byter till en kolumnlayout på små skärmar */
