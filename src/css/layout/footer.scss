@@ -1,10 +1,34 @@
+//färger
+$lightest: #f6f5f3;
+$gold: #d8ae5e;
+
+$light_grey: #e9e9e9;
+$grey: #d6d9d9;
+
+$light_green: #b7bab3;
 $dark_green: #78786d;
 
-
 footer {
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+  }
+  .top-footer {
+    background-color: $light_green;
+    padding: 3em;
+    line-height: 1.5em;
+    h2 {
+        color : $light_grey;
+    }
+    img {
+        max-width: 280px;
+    }
+  }
+  .bottom-footer {
     background-color: $dark_green;
     padding: 1em;
-    margin-top: 5em;
     text-align: center;
-    color: white;
+    color: $grey;
+  }
 }
