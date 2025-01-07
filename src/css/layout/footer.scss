@@ -19,7 +19,14 @@ footer {
     padding: 3em;
     line-height: 1.5em;
     h2 {
-        color : $light_grey;
+        color : #42423d;
+    }
+    a {
+        color: $lightest;
+        text-decoration: none;
+        &:hover {
+            color: white;
+        }
     }
     img {
         max-width: 280px;
