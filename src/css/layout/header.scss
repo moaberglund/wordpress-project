@@ -25,12 +25,12 @@ $dark_green: #78786d;
 
 #drop-nav {
   nav {
-    background-color: $grey;
+    background-color: $lightest;
     position: fixed;
     right: 0;
     top: 0;
     height: 100vh;
-    width: 30vw;
+    width: 100%;
     max-width: 400px;
     transform: translateY(-100%); // Start position utanför skärmen
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; // Justerad transition-tid
@@ -83,7 +83,7 @@ $dark_green: #78786d;
     top: 1.5em;
     display: flex;
     align-items: center;
-    background-color: $grey;
+    background-color: $lightest;
     cursor: pointer;
     max-width: 400px;
 
@@ -98,9 +98,9 @@ $dark_green: #78786d;
 
   .close {
     position: absolute;
-    left: 290px;
+    right: 3em;
     top: 1.5em;
-    background-color: $grey;
+    background-color: $lightest;
   }
 }
 
@@ -158,6 +158,15 @@ nav {
 }
 
 @media screen and (max-width: 800px) {
+
+  #header-banner {
+    padding: 0;
+  }
+  #logotype img {
+    width: 50px;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+  }
   #drop-nav {
     nav {
       width: 100vw;
