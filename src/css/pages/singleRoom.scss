@@ -64,3 +64,10 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .room-flex {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
