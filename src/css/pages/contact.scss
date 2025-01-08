@@ -2,11 +2,12 @@ $lightest: #f6f5f3;
 
 .staff {
   background-color: $lightest;
-  display: flex; /* Gör det möjligt att centrera innehållet */
-  flex-direction: column; /* Placera bilden och texten vertikalt */
-  align-items: center; /* Centrera innehållet horisontellt */
-  text-align: center; /* Justera texten i mitten */
-  margin-top: 2em; /* Lägg till lite utrymme ovanför om det behövs */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+  margin-top: 2em; 
+  margin-bottom: 4em;
   img {
     max-width: 70%;
     width: 350px;
