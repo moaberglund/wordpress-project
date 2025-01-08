@@ -44,27 +44,29 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  footer {
+    .grid-3 {
+      grid-template-columns: 1fr;
+      gap: 2em;
+      text-align: center;
+    }
 
-  .grid-3 {
-    grid-template-columns: 1fr; // En kolumn per rad för små skärmar
-    gap: 2em; // Mindre mellanrum mellan raderna
-    text-align: center;
-  }
-  .top-footer {
-    padding: 2em 0.2em; // Minska padding
-  }
+    .top-footer {
+      padding: 2em 0.2em;
 
-  .top-footer img {
-    max-width: 200px; // Anpassa bildstorlek
-    margin: 0 auto; // Centrera bilden
-  }
+      img {
+        max-width: 200px; // Anpassa bildstorlek
+        margin: 0 auto; // Centrera bilden
+      }
 
-  .small {
-    font-size: 10px; // Minska textstorleken på små skärmar
-  }
+      .small {
+        font-size: 10px; // Minska textstorleken på små skärmar
+      }
+    }
 
-  .bottom-footer {
-    padding: 0.5em; // Minska padding i den nedre delen av footern
-    font-size: 14px; // Justera textstorlek
+    .bottom-footer {
+      padding: 0.5em; // Minska padding i den nedre delen av footern
+      font-size: 14px; // Justera textstorlek
+    }
   }
 }
