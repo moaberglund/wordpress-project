@@ -19,17 +19,17 @@ footer {
     padding: 3em;
     line-height: 1.5em;
     h2 {
-        color : #42423d;
+      color: #42423d;
     }
     a {
-        color: $lightest;
-        text-decoration: none;
-        &:hover {
-            color: white;
-        }
+      color: $lightest;
+      text-decoration: none;
+      &:hover {
+        color: white;
+      }
     }
     img {
-        max-width: 280px;
+      max-width: 280px;
     }
     .small {
       font-size: 13px;
@@ -40,5 +40,31 @@ footer {
     padding: 1em;
     text-align: center;
     color: $grey;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .grid-3 {
+    grid-template-columns: 1fr; // En kolumn per rad för små skärmar
+    gap: 2em; // Mindre mellanrum mellan raderna
+    text-align: center;
+  }
+  .top-footer {
+    padding: 2em 0.2em; // Minska padding
+  }
+
+  .top-footer img {
+    max-width: 200px; // Anpassa bildstorlek
+    margin: 0 auto; // Centrera bilden
+  }
+
+  .small {
+    font-size: 10px; // Minska textstorleken på små skärmar
+  }
+
+  .bottom-footer {
+    padding: 0.5em; // Minska padding i den nedre delen av footern
+    font-size: 14px; // Justera textstorlek
   }
 }
